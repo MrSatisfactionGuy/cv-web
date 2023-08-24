@@ -28,6 +28,23 @@
       background: #e1e1e1;
       color:  #666;
     }
+    table {
+      width: 100%;
+    }
+    th {
+      text-align: left;
+      padding: 15px;
+      width: 400px;
+      border-bottom: 1px solid #cc0e0e;
+    }
+
+    td {
+      text-align: left;
+      padding: 15px;
+      width: 400px;
+      border-bottom: 1px solid #cc0e0e;
+    }
+    
     ul {
         width: 100%;
         position: -webkit-sticky; /* Safari */
