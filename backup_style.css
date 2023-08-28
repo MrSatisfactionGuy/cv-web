@@ -1,0 +1,92 @@
+    h2 {
+        color: #4287f5;
+    }
+    .header {
+        text-align: center;
+      height: 140px;
+      padding: 20px 20px 0;
+      background:  #7a4ec2;
+    }
+    body
+    {
+      font-family: 'Helvetica';
+      font-size: 10pt;
+      color: #444444;
+    }
+    .entry-header .entry-title {
+      margin-bottom: 0.25em;
+    }
+    .site-content {
+      padding: 5.5em 0 0;
+    }
+
+    .menuebar {
+        text-align: center;
+        height: 20px;
+        padding: 20px 20px 20px;
+        background: #e1e1e1;
+    }
+        .list {
+            text-align: center;
+            height: 20px;
+            padding: 20px 20px 20px;
+            background: #e1e1e1;
+    }
+    .main-content {
+      height: 60vh;
+      padding: 20px;
+    }
+    footer {
+      padding: 10px 20px;
+      background: #e1e1e1;
+      color:  #666;
+    }
+    table {
+      width: 100%;
+    }
+    th {
+      text-align: left;
+      padding: 15px;
+      width: 400px;
+      border-bottom: 1px solid #cc0e0e;
+    }
+
+    td {
+      text-align: left;
+      padding: 15px;
+      width: 400px;
+      border-bottom: 1px solid #cc0e0e;
+    }
+    
+    ul {
+        width: 100%;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:  #666;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        float: center;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #333;
+      }
+      .active {
+        background-color: #04AA6D;
+      }
